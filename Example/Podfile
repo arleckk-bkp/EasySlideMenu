@@ -1,0 +1,6 @@
+use_frameworks!
+target 'EasySlideMenu_Tests' do
+  pod 'EasySlideMenu', :path => '../'
+  
+  
+end
