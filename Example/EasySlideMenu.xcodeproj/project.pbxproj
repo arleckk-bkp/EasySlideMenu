@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		05E10D542BCE82877D661AA8 /* Pods_EasySlideMenu_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633915D36DD7EA54B29C4F4F /* Pods_EasySlideMenu_Tests.framework */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		BAAF21EA1EDBBA4400D4B776 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = BAAF21E91EDBBA4400D4B776 /* .swift-version */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		633915D36DD7EA54B29C4F4F /* Pods_EasySlideMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasySlideMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4F7C1BC2AD4E2DE0A3AEEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BAAF21E91EDBBA4400D4B776 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
 		C4464E8E6D75747D306EB7F1 /* Pods-EasySlideMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasySlideMenu_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasySlideMenu_Tests/Pods-EasySlideMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C4E4F9EA01834737D4751005 /* Pods-EasySlideMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasySlideMenu_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasySlideMenu_Tests/Pods-EasySlideMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +80,7 @@
 				58898DA5D0E9CE383EC0688A /* EasySlideMenu.podspec */,
 				7F4F7C1BC2AD4E2DE0A3AEEE /* README.md */,
 				36B75B270C68C78C92E1C5AB /* LICENSE */,
+				BAAF21E91EDBBA4400D4B776 /* .swift-version */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAAF21EA1EDBBA4400D4B776 /* .swift-version in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
