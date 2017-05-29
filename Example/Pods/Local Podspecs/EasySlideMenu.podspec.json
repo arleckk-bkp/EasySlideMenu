@@ -1,0 +1,22 @@
+{
+  "name": "EasySlideMenu",
+  "version": "0.1.0",
+  "summary": "A short description of EasySlideMenu.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/arleckk/EasySlideMenu",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "arleckk": "oscar93.riot@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/arleckk/EasySlideMenu.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EasySlideMenu/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - EasySlideMenu (0.1.0)
+
+DEPENDENCIES:
+  - EasySlideMenu (from `../`)
+
+EXTERNAL SOURCES:
+  EasySlideMenu:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EasySlideMenu: 718a5ddac39e64e1533272ec7980b3ad5e7d546c
+
+PODFILE CHECKSUM: b57222f572810d1ea2b8f14dfd43e54b5e4523c4
+
+COCOAPODS: 1.2.1

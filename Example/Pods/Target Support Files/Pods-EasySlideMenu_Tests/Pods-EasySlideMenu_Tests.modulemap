@@ -1,0 +1,6 @@
+framework module Pods_EasySlideMenu_Tests {
+  umbrella header "Pods-EasySlideMenu_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -12,13 +12,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		36B75B270C68C78C92E1C5AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		58898DA5D0E9CE383EC0688A /* EasySlideMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EasySlideMenu.podspec; path = ../EasySlideMenu.podspec; sourceTree = "<group>"; };
+		36B75B270C68C78C92E1C5AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		58898DA5D0E9CE383EC0688A /* EasySlideMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EasySlideMenu.podspec; path = ../EasySlideMenu.podspec; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* EasySlideMenu_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasySlideMenu_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		633915D36DD7EA54B29C4F4F /* Pods_EasySlideMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasySlideMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F4F7C1BC2AD4E2DE0A3AEEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7F4F7C1BC2AD4E2DE0A3AEEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C4464E8E6D75747D306EB7F1 /* Pods-EasySlideMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasySlideMenu_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasySlideMenu_Tests/Pods-EasySlideMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C4E4F9EA01834737D4751005 /* Pods-EasySlideMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasySlideMenu_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasySlideMenu_Tests/Pods-EasySlideMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +38,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				BA1E44611EDA88B900ECD790 /* UIView */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
@@ -90,6 +91,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BA1E44611EDA88B900ECD790 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
 		C4ADFCEBCF0FC2E4BB672EC7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,12 +139,9 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7XJ9J98F99;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -321,6 +326,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4464E8E6D75747D306EB7F1 /* Pods-EasySlideMenu_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7XJ9J98F99;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -341,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4E4F9EA01834737D4751005 /* Pods-EasySlideMenu_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7XJ9J98F99;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
